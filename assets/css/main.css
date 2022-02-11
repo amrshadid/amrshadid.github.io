@@ -211,6 +211,7 @@ input, select, textarea {
 
 	h4 {
 		font-size: 0.8rem;
+		letter-spacing: 0rem;
 	}
 
 	h5 {
@@ -621,10 +622,16 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
-
+		.image.main img {
+			width: 100%;
+		}
+		.project-image{
+			max-height: 100px;
+		}
+		.tech-stack-image{
+			height: 80px;
+			margin: 3px;
+		}
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1530,6 +1537,21 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 		
+		.prject-container{
+			border-bottom:1px solid #fff;
+		}
+		.prject-container > p{
+			margin-top: 1rem;
+		}
+		.prject-container h3{
+			margin-top: 1.5rem;
+		}
+		.tech-stack{
+			margin: 1rem 0 1rem 0 ;
+			padding: 10px;
+			text-align:center
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#main article {

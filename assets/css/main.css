@@ -254,7 +254,14 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
 	}
-
+	.status{
+		font-size: large;
+		letter-spacing: 0ch;
+		text-transform: none;
+	}
+	.main-quote{
+		
+	}	
 	code {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
@@ -625,12 +632,45 @@ input, select, textarea {
 		.image.main img {
 			width: 100%;
 		}
+		.calendar{
+			margin-bottom: 3rem !important;
+		}
+		.project-brand{
+			background: linear-gradient(to right,rgba(255, 225, 0, 1)  , rgba(21, 241, 202, 1));
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-size: larger;
+			transition: 1s;
+			margin-bottom: 0 !important;
+		}
+		.project-brand:hover{
+			scale: 1.1;
+		}
 		.project-image{
-			max-height: 100px;
+			height: 100px;
+			transition: 1s;
+		}
+		.project-image:hover{
+			scale: 1.1;
+		}
+		.hidden {
+			display: none;
+		}
+		.project-description{
+			font-size: 20px;
+			font-family: 'IBM Plex Mono'
 		}
 		.tech-stack-image{
-			height: 80px;
+			height: 50px;
 			margin: 3px;
+			transition: 1s;
+		}
+		.tech-stack-image:hover{
+			scale: 1.4;
+			margin: 3px;
+		}
+		.show-more{
+			margin: 1rem 0rem 1rem 0rem;
 		}
 		@media screen and (max-width: 736px) {
 
@@ -1537,19 +1577,26 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 		
-		.prject-container{
+		.project-container{
 			border-bottom:1px solid #fff;
 		}
-		.prject-container > p{
+		.project-container > p{
 			margin-top: 1rem;
 		}
-		.prject-container h3{
+		.project-container h3{
 			margin-top: 1.5rem;
+			margin-bottom: 0;
+			letter-spacing: 0;
+
+		}
+		.project-container span{
+			color: gray;
+
 		}
 		.tech-stack{
 			margin: 1rem 0 1rem 0 ;
 			padding: 10px;
-			text-align:center
+			text-align:right
 		}
 
 		@media screen and (max-width: 736px) {

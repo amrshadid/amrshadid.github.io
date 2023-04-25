@@ -2,10 +2,12 @@
 <html>
 
 <head>
-	<title>Amr Shadid</title>
 	<meta charset="utf-8" />
+	<title>Amr Shadid</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
+	<meta name="description" content="This is my personal blog where I share my thoughts and experiences.">
+	<meta name="keywords" content="personal, blog, thoughts, experiences">
+	<meta name="author" content="Amr Shadid">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -25,9 +27,10 @@
 				<div class="inner">
 					<h1>Amr Shadid</h1>
 					<p>Creative software engineer based on Palestine. </p>
-					<h4 class="main quote">Our limitation is only our imagination.</h4>
-
+					<h4 class="main-quote">Our limitation is only our imagination</h4>
 				</div>
+				<h6 class="status" >Learning Swift 🔥</h6>
+
 			</div>
 			<nav>
 				<ul>
@@ -41,78 +44,154 @@
 		<div id="main">
 
 			<article id="projects">
-				<h1 class="major">Projects</h1>
-
 				<div class="calendar">
 
 				</div>
-				<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
 				
+				<h1 class="major">Projects</h1>
 				<div class="projects_container">
-					<div class="prject-container">
-						<h3>Achieved productivity application</h3>
-						<img class="project-image" src="images/achieved.png" alt="Achieved">
-						<p>
-							Achieved Productivity is mobile application created using Django Rest Framework (DRF) and React Native.
-							I used Heroku to run Backend server and development environment i have used S3 stoage service from AWS to store media files and PostgreSQL database.
-							<a href="https://apps.apple.com/in/app/achieved-productivity/id1590237581"> App store</a>
+					<div class="project-container">
+						<h3>PSEGOV - A Mobile Application for Online Ministry of Interior Services</h3>
+						<span>Nov. 2022</span>
+						<br/>
+						<img class="project-image" src="images/PS.png" alt="Ps logo">
+						<p class="project-description">
+							PSEGOV is my senior project, which aimed to bring some of the Ministry of Interior services online and provide them through a mobile application built with React Native. 
+							The Ministry of Interior employee dashboard was developed using React JS to manage citizen requests, while the backend was built using Django REST Framework. 
+							The project also includes an online payment service and contributes to the digital transformation of government services.
+							If you're interested in obtaining the source code for this project, please feel free to send me an email with your request.
 						</p>
 						<div class="tech-stack">
-							<img class="tech-stack-image" src="images/Django.png" alt="Django Rest Framwork">
+							<img class="tech-stack-image" src="images/typescript.svg" alt="Typescript">
+							<img class="tech-stack-image" src="images/Django.png" alt="Django Rest Framework">
 							<img class="tech-stack-image" src="images/reactNative.png" alt="React Native">
-							<img class="tech-stack-image" src="images/heroku.png" alt="Heroku">
-							<img class="tech-stack-image" src="images/AWS.png" alt="Heroku">
-
+							<img class="tech-stack-image" src="images/reactJS.png" alt="Django Rest Framework">
 						</div>
 					</div>
 
-					<div class="prject-container">
-						<h3>library management</h3>
-						<img class="project-image" src="images/library-management.png" width="250px" alt="Achieved">
-						<p>
-							integrate an existing web application with Stripe to make online payment process. 
-							I have worked on Django Rest Framework (DRF) and Next.js and I use heroku to build development environment to test payment process.	
-								<a href="http://library-mp1.herokuapp.com">Visit site</a>
+					<div class="project-container">
+						<h3>React Native Template</h3>
+						<span>Jul. 2022</span>
+						<br/>
+						<img class="project-image" src="images/reactNative.png" alt="React Native logo">
+						<p class="project-description">
+							I created a comprehensive folder template structure for React Native projects, which is divided into various parts. 
+							The primary aim of this template is to simplify the app development process and make it more understandable. 
+							The template includes a Redux store and navigation stack to help manage data and simplify navigation.
+							<a href="https://github.com/amrshadid/ReactNative-template"> See repository on GitHub </a>	
 						</p>
 						<div class="tech-stack">
-							<img class="tech-stack-image" src="images/Django.png" alt="Django Rest Framwork">
+							<img class="tech-stack-image" src="images/reactNative.png" alt="React Native">
+							<img class="tech-stack-image" src="images/typescript.svg" alt="typescript">
+						</div>
+					</div>
+
+					<div class="project-container">
+						<h3>awesome-rn-bottom-sheet</h3>
+						<span>Jul. 2022</span>
+						<br/>
+						<img class="project-image" src="images/npm.png" alt="Ps logo">
+						<p class="project-description">
+							Awesome-rn-bottom-sheet is a customizable and easy-to-use React Native component that allows you to create a bottom sheet with smooth animations. You can use it to create modal dialogs, menus, and other UI elements that slide up from the bottom of the screen.
+							With Awesome-rn-bottom-sheet, you can fully customize the appearance of the bottom sheet, including its size and colors. You can also easily control the behavior of the component, such as whether it should be draggable or snap to specific positions.
+							The component is available on NPM and GitHub, making it easy for other developers to incorporate it into their React Native project
+							<ul>
+								<li><a href="https://github.com/amrshadid/awesome-rn-bottom-sheet"> See repository on GitHub</a></li>
+								<li><a href="https://www.npmjs.com/package/@amrshadid/awesome-rn-bottom-sheet"> See on NPM</a></li>
+							</ul>
+						</p>
+						<div class="tech-stack">
+							<img class="tech-stack-image" src="images/npm.png" alt="NPM">
+							<img class="tech-stack-image" src="images/typescript.svg" alt="typescript">
+							<img class="tech-stack-image" src="images/reactNative.png" alt="React Native">
+						</div>
+					</div>
+
+					<div class="project-container">
+						<h3>SQL builder tool</h3>
+						<span>Mar. 2022</span>
+						<h4 class="project-brand" >SQLBUILDER</h4>
+						<br/>
+						<p class="project-description">
+							I developed a web application called SQL Builder Tool that allows users to take a JSON in a specific format and draw the database tables and their relationships with each other. The tool's interface of tables map is swappable and drawable too.
+							I utilized JavaScript and React to create this innovative tool that simplifies database design. 
+							<a href="https://github.com/amrshadid/sqlbuilder-tool"> See repository on GitHub</a>
+						</p>
+						<div class="tech-stack">
+							<img class="tech-stack-image" src="images/javaScript.png" alt="JavaScript">
+							<img class="tech-stack-image" src="images/react.png" alt="React">
+							<img class="tech-stack-image" src="images/html.png" alt="Html">
+							<img class="tech-stack-image" src="images/css.png" alt="Css">
+						</div>
+					</div>
+
+					<div class="project-container">
+						<h3>library management</h3>
+						<span>Oct. 2021</span>
+						<br/>
+						<img class="project-image" src="images/library-management.png" width="250px" alt="Achieved">
+						<p class="project-description">
+							I added payment processing functionality to an existing web application built with Django Rest Framework (DRF) and Next.js. 
+							To achieve this, I integrated the app with Stripe and used Heroku to build a secure and reliable development environment for testing the payment process.
+							<a href="https://hoarulestemplate.com">Visit site</a>
+						</p>
+						<div class="tech-stack">
+							<img class="tech-stack-image" src="images/python.png" alt="Python">
+							<img class="tech-stack-image" src="images/Django.png" alt="Django Rest Framework">
+							<img class="tech-stack-image" src="images/javaScript.png" alt="JavaScript">
 							<img class="tech-stack-image" src="images/nextjs.png" alt="NextJS">
 							<img class="tech-stack-image" src="images/Stripe.png" alt="Stripe">
 							<img class="tech-stack-image" src="images/heroku.png" alt="Heroku">
 						</div>
 					</div>
 
-					<div class="prject-container">
-						<h3>zoom web sdk integration</h3>
+					<div class="project-container">
+						<h3>Zoom web sdk integration</h3>
+						<span>Sep. 2021</span>
+						<br/>
 						<img class="project-image" src="images/Zoom.png" alt="Zoom logo">
-						<p>
-							I created a web page that can host streams run via Zoom to be embedded it in a VR application. 
-							Used Zoom SDK with JavaScript to integrate app with Zoom services. 
+						<p class="project-description">
+							I have worked on a project that involved creating a web page to host Zoom streams that can be embedded in a VR application. 
+							This project utilized the Zoom SDK and JavaScript to integrate the app with Zoom services.
 							<a href="https://github.com/amrshadid/Zoom-SDK"> See repository on GitHub </a>						
 						</p>
 						<div class="tech-stack">
 							<img class="tech-stack-image" src="images/html.png" alt="Html">
 							<img class="tech-stack-image" src="images/javaScript.png" alt="JavaScript">
 							<img class="tech-stack-image" src="images/css.png" alt="Css">
-
-
 						</div>
 					</div>
 
+					<div class="project-container">
+						<h3>Achieved productivity application</h3>
+						<span>Mar. 2021</span>
+						<br/>
+						<img class="project-image" src="images/achieved.png" alt="Achieved">
+						<p class="project-description">
+							I previously worked on a project called "Achieved Productivity" a mobile application that I developed using Django Rest Framework (DRF) and React Native. The app's backend server and development environment were hosted on Heroku, 
+							and I used the S3 storage service from AWS to store media files. PostgreSQL was also utilized as the project's database. Although the app is no longer available on app stores due to a decision made by stakeholders, I'm still proud of the work I put into it.
+						</p>
+						<div class="tech-stack">
+							<img class="tech-stack-image" src="images/python.png" alt="Python">
+							<img class="tech-stack-image" src="images/Django.png" alt="Django Rest Framework">
+							<img class="tech-stack-image" src="images/javaScript.png" alt="JavaScript">
+							<img class="tech-stack-image" src="images/reactNative.png" alt="React Native">
+							<img class="tech-stack-image" src="images/heroku.png" alt="Heroku">
+							<img class="tech-stack-image" src="images/AWS.png" alt="AWS">
+
+						</div>
+					</div>
 
 				</div>
 			</article>
 
 			<article id="about">
 				<h1 class="major">About Me</h1>
-				<!-- <h4 class="main quote">“ Our limitation is only our imagination. ”</h4> -->
-
-				<!-- <span class="image main"><img src="images/bg.jpg"  alt="" /></span> -->
-				<p> Hello, my name is Amr, and I'm from Ramallah, Palestine.
-					I'm in my final year of computer system engineering at Arab American University.
-				<br/>
-					I currently work as a full-stack developer as a freelancer on the Upwork freelance platform, and I've done work both on Upwork and elsewhere.					<br/>
-					I have a set of skills in programing, and my own technology stack has it contains Python, JavaScript and Typescript. my experience in programing can help me to learn any other Technology on short time.
+				<p> 
+					Hi there! My name is Amr, and I am currently working as a software engineer. With a degree in Computer System Engineering and experience in full-stack development, 
+					I have developed strong programming skills in languages such as Python, JavaScript, and Typescript. 
+					I am a passionate technologist who loves to learn and stay on top of the latest trends and technologies. With my experience as a software engineer, 
+					I am confident that I can make a valuable contribution to your team and help bring your next project to life.
 				</p>
 			</article>
 
@@ -127,11 +206,10 @@
 			</article>
 
 		</div>
-		<div class="footer">
-			<h6>copy2022, Amr Shadid. All right reserved</h6>
-		</div>
 	</div>
-
+	<div class="footer">
+		<h6>Copyright © 2023, Amr Shadid. All rights reserved.</h6>
+	</div>
 
 	<div id="bg"></div>
 

@@ -399,3 +399,17 @@
 					});
 
 })(jQuery);
+
+// Get all the show more buttons and paragraphs
+const showMoreButtons = document.querySelectorAll('.show-more');
+const paragraphs = document.querySelectorAll('.project-description');
+
+// Add event listener to each show more button
+showMoreButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    // Toggle the visibility of the paragraphs
+    paragraphs.forEach((paragraph) => {
+      paragraph.classList.toggle('hidden');
+    });
+  });
+});
